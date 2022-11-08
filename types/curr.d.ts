@@ -5137,7 +5137,7 @@ export namespace xdr {
     static validateXDR(input: string, format: 'hex' | 'base64'): boolean;
   }
 
-  class Operation {
+  class Operation2 {
     constructor(attributes: {
       sourceAccount: null | MuxedAccount;
       body: OperationBody;
